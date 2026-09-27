@@ -32,21 +32,21 @@ Within the decision boundaries Jupyter Notebook, we will test our models on synt
 ```text
 Classical-Machine-Learning-From-Scratch
 |
-├──README.md
-|
-├── math
+├── derivations
 │   ├── logistic_regression.pdf
-│   ├── svm.pdf
-│   └── neural_network.pdf
+│   ├── neural_network.pdf
+│   └── svm.pdf
 │
+├──experiments
+|   └── decision_boundaries.ipynb
+|
+├── helper functions
+│   └── plot_decision_boundary.py
+|
 ├── models
 │   ├── Logistic_Regression_Class.py
 │   ├── Support_Vector_Machine_Class.py
 │   └── Neural_Network_Class.py
 │
-├── helpers
-│   └── plot_decision_boundary.py
-│
-└── experiments
-    └── decision_boundaries.ipynb
+└── README.md
 ```
